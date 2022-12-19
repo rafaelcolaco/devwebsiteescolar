@@ -1,6 +1,6 @@
 <?php
 include('verifica_login.php');
-
+include ('conexao.php');
 ?>
 
 <!DOCTYPE html>
@@ -19,9 +19,15 @@ include('verifica_login.php');
     <nav class="navbar " style="background-color: #00FF00;">
   <div class="container-fluid">
     <span class="navbar-brand mb-0 h1">Site Escolar</span>
+    <li class="nav-item">
+    <a class="nav-link" href="logout.php">sair</a>
+</li>
   </div>
 </nav>
 </div>
     
+  
+
+
 </body>
 </html>
